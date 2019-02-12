@@ -110,7 +110,7 @@ app.get('/about', (req,res)=>{
 
 
 
-app.listen( 3000 || process.env.PORT , ()=>{
+app.listen(  process.env.PORT ||'https://nameless-lake-29432.herokuapp.com/' , ()=>{
     console.log('Server Started')
 })
 
